@@ -86,8 +86,8 @@ Note: Make sure you're logged into your GitHub account. If you don't have one, y
 Here's what you can customize in `config.js`:
 ```javascript
 // Basic Information
-valentineName: "Jade"                    // Your Valentine's name
-pageTitle: "Will You Be My Valentine? 💝" // Browser tab title
+valentineName: "Jasmine"                    // Your Valentine's name
+pageTitle: "To my beautiful girl" // Browser tab title
 
 // Floating Background Elements
 floatingEmojis: {
@@ -98,21 +98,25 @@ floatingEmojis: {
 // Questions and Buttons
 questions: {
     first: {
-        text: "Do you like me?",                   // First question
+        text: "can you geuss how many days we've been together?",                   // First question
         yesBtn: "Yes",                             // Yes button text
         noBtn: "No",                               // No button text
-        secretAnswer: "I don't like you, I love you! ❤️"  // Hidden message
+        secretAnswer: "A million!"  // Hidden message
     },
     second: {
-        text: "How much do you love me?",          // Second question
-        startText: "This much!",                   // Text before percentage
+        text: "429 days! (at the time of making this) ",          // Second question
+        startText: "WOWZA!",                   // Text before percentage
         nextBtn: "Next ❤️"                         // Next button text
     },
     third: {
-        text: "Will you be my Valentine...?",      // Final question
-        yesBtn: "Yes!",                            // Yes button text
-        noBtn: "No"                                // No button text
-    }
+        text: "but on our 442nd day together itll be valentines day...",      
+        yesBtn: "Yes..?",                            // Yes button text
+        noBtn: "im so excited!"                                // No button text
+    },
+    fourth: {
+        text: "This is your formal invition to be my valentine! Jasmine, do you accept?"
+        yesBtn: I do!
+        noBtn: only if i get flowers!
 }
 
 // Love Meter Messages
